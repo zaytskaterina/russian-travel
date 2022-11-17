@@ -1,0 +1,32 @@
+/* 1280 */
+.cover {
+  margin: 0 auto;
+  padding: 0;
+  width: calc(100% - 2*48px);
+  display: flex;
+  flex-direction: column;
+  margin-top: 91px;
+  margin-bottom: 95px;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    width: 100%;
+    margin-top: 86px;
+    margin-bottom: 92px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    margin-top: 66px;
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .cover {
+    margin-bottom: 64px;
+    margin-top: 66px;
+  }
+}

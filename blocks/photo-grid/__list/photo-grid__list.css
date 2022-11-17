@@ -1,0 +1,32 @@
+/* 1280 */
+.photo-grid__list {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  list-style-type: none;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  gap: 12px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .photo-grid__list {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 11px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .photo-grid__list {
+    grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
+    gap: 13px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .photo-grid__list {
+    gap: 9px;
+    grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
+  }
+}
+

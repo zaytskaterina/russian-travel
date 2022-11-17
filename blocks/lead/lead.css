@@ -1,0 +1,28 @@
+/* 1280 */
+.lead {
+  margin: 0 auto;
+  padding: 0;
+  width: calc(100% - 2*148px);
+  margin-bottom: 92px;
+}
+
+/* 1024 */
+@media screen and (max-width: 1024px) {
+  .lead {
+    width: calc(100% - 2*48px);
+  }
+}
+
+/* 768 */
+@media screen and (max-width: 768px) {
+  .lead {
+    width: 100%;
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .lead {
+    margin-bottom: 64px;
+  }
+}

@@ -1,0 +1,12 @@
+.place__website {
+  margin: 0;
+  padding: 0;
+  align-self: flex-end;
+}
+
+@media screen and (max-width: 480px) {
+  .place__website {
+    margin: 0 auto 32px;
+    width: calc(100% - 2*16px);
+  }
+}

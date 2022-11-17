@@ -1,0 +1,29 @@
+
+.intro {
+  margin: 0 auto;
+  width: calc(100% - 2*148px);
+  margin-bottom: 95px;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    width: calc(100% - 2*48px);
+    margin-bottom: 100px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .intro {
+    width: calc(100% - 2*24px);
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .intro {
+    width: calc(100% - 2*16px);
+    margin-bottom: 63px;
+  }
+}

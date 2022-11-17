@@ -1,0 +1,7 @@
+/* 1280 */
+.photo-grid__item {
+  margin: 0;
+  padding: 0;
+  min-width: 284px;
+  max-width: 100%;
+}

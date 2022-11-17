@@ -1,0 +1,8 @@
+.header__list-item {
+  margin: 0 18px 6px 0;
+  padding: 0;
+}
+
+.header__list-item:last-child {
+  margin-right: 0;
+}

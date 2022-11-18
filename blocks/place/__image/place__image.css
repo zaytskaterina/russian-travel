@@ -14,7 +14,8 @@
 
 @media screen and (max-width: 768px) {
   .place__image {
-    width: 44.2708333vw;
+    width: 96vw;
+    object-fit: cover;
   }
 }
 

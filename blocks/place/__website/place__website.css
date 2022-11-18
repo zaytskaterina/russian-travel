@@ -4,6 +4,12 @@
   align-self: flex-end;
 }
 
+@media screen and (max-width: 768px) {
+  .place__website {
+    align-self: flex-start;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .place__website {
     margin: 0 auto 32px;

@@ -15,13 +15,14 @@
   .footer {
     width: calc(100% - 2*24px);
   }
-}
-
-@media screen and (max-width: 480px) {
-  .footer {
+ .footer {
     width: 100%;
     flex-direction: column;
     align-items: flex-start;
     padding-left: 16px;
   }
+}
+
+* {
+  border: 1px solid cadetblue;
 }
